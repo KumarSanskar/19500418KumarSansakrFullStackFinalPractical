@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm&family=Pinyon+Script&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+      *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu li a{
+    text-decoration: none;
+    float: right; 
+    margin-left: 20px; 
+    font-size: 25px;
+}
+.menu li a:hover{
+    color: grey;
+}
+  </style>
+  <body>
+    <!-- navbar -->
+    <div class="nav" style="width: 100%; margin-top: 5px;">
+      <h1 style="color:rgb(53, 107, 155) ; margin-left: 20px;">Appland</h1>
+        <ul class="menu" style="list-style: none; margin-right: 30px; font-size: medium;">
+            <li><a href="#"><button style="padding: 5px; width: 120px; background-color: rgb(88, 128, 240); border-radius: 15px; font-size: large;">Get started</button></a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Drop Down</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">App Featurs</a></li>
+            <li><a href="#">Home</a></li>
+
+          
+        </ul>
+    
+    </div>
+    <section class="main" style="display: inline-flex;margin-top: 30vh; margin-left: 25px;">
+      <div class="left">
+          <!-- text -->
+        <h1 style="font-size: 68px;color: rgb(53, 107, 155);">App Landing Page</h1>
+        <p style="font-size:22px;justify-content: left; font-weight: bold; color: rgb(143, 137, 137);">
+            <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, fugit
+          iste fuga vel molestiae eius consectetur blanditiis error incidunt
+          doloremque! molestiae eius consectetur blanditiis error incidunt
+          doloremque!
+        </p>
+        <br><br>
+        <div class="buttons">
+            <button style="padding: 15px; width: 220px; background-color: rgb(77, 74, 74); margin-left: 30px;">
+                <a href="#" style="text-decoration: none; color: white;font-size: 25px;">
+                <i class="fa fa-android">
+                </i>       Google Play
+            </a>
+            </button>
+            <button style="padding: 15px; width: 220px; background-color: rgb(77, 74, 74); margin-left: 20px;">
+                <a href="#" style="text-decoration: none; color: white;font-size: 25px;">
+                <i class="fa fa-apple">
+                </i>    App Store
+            </a>
+            </button>
+
+        </div>
+      </div>
+      <div class="right">
+            <!-- image -->
+        <div class="right" style="float: right; width: max-content">
+        <img src="./assets/mobile-vector.jpg" alt="mobile-vector-image" height="400px" width="600px" />
+      </div>
+      </div>
+    </section>
+  </body>
+</html>
